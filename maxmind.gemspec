@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
     "LICENSE",
     "README.md"
   ]
-  
+
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.homepage = "http://github.com/adam12/maxmind"
@@ -25,6 +25,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'webmock'
 
-  s.add_runtime_dependency 'active_support', '>= 3.0.0'
+  s.add_runtime_dependency 'activesupport', '>= 3.0.0'
 end
 
